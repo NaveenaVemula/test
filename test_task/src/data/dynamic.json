@@ -1,0 +1,29 @@
+{
+    "blocks":[
+        {
+            "token": "name",
+           "type":"text",
+           "props":{
+            "title": "Name",
+            "required":true,
+            "placeholder":"Enter Your Name"
+           }
+        },
+        {
+            "token": "checkbox",
+           "type":"checkbox",
+           "props":{
+            "title": "Is the current person is minor?",
+           "default":false
+           }
+        },
+        {
+            "token": "date",
+           "type":"date",
+           "props":{
+            "title": "Enter your DOB"
+    
+           }
+        }
+    ]
+}
